@@ -1,0 +1,7 @@
+Name: Ali
+Age: 20
+Math: 90
+English: 83
+Urdu: 95
+Average: 89.33
+Grade: A
