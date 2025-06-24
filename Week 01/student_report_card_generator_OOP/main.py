@@ -15,4 +15,14 @@ class students:
             avg+=self.grades[subject]
         return avg/len(self.grades)
     def assign_grade(self):
+        avg=self.calculate_average()
+        if avg>=80:
+            return "A"
+        elif avg>=60 and avg<80:
+            return "B"    
+        elif avg>=40 and avg<60:
+            return "C"
+        else:
+            return "F"    
+    def generate_report():
             
