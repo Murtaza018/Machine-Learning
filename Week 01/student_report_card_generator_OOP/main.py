@@ -25,4 +25,4 @@ class students:
         else:
             return "F"    
     def generate_report():
-            
+    def save_to_tile(filename):        
