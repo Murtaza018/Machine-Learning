@@ -26,3 +26,4 @@ class students:
             return "F"    
     def generate_report():
     def save_to_tile(filename):        
+    def load_from_tile(filename):        
