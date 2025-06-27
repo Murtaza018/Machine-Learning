@@ -24,6 +24,15 @@ class students:
             return "C"
         else:
             return "F"    
-    def generate_report():
+    def generate_report(self):
+        report=""
+        report+=f"Name:{self.name}\n"
+        report+=f"Age:{self.age}\n"
+        report+=f"Marks:\n"
+        for key in self.grades:
+            report+=f"{key}:{self.grades[key]}"
+        report+=f"Average:{self.calculate_average()}"    
+        report+=f"Grade:{self.assign_grade()}" 
+        return report   
     def save_to_tile(filename):        
     def load_from_tile(filename):        
