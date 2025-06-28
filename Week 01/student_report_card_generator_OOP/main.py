@@ -34,5 +34,6 @@ class students:
         report+=f"Average:{self.calculate_average()}"    
         report+=f"Grade:{self.assign_grade()}" 
         return report   
-    def save_to_tile(filename):        
+    def save_to_tile(self,filename):  
+        self.generate_report()      
     def load_from_tile(filename):        
